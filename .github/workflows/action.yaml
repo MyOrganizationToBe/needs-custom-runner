@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init: 
-    runs-on: self-hosted
+    runs-on: local-centos
     steps: 
       - run: echo 'Hello cloud gurus'
       - run: echo $HOSTNAME
