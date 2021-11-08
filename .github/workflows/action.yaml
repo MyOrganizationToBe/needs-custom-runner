@@ -8,5 +8,5 @@ jobs:
     steps: 
       - run: echo 'Hello cloud gurus'
       - run: echo $HOSTNAME
-      - run: echo time
+      - run: time
       
